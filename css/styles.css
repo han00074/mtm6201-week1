@@ -1,0 +1,28 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+.wrapper {
+    background-color: rgb(138, 133, 133);
+    padding: 1rem;
+    width: 90%;
+    margin: 1rem auto;
+}
+h1{
+    color: #fff;
+    margin: 0px;
+    padding: 1rem;
+}
+img{
+    width: 200px;
+    float: left;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
